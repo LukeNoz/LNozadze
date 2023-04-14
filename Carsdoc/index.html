@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <title> Carsdoc </title>
+    </head>
+    <body>
+        <header>
+            <h1> Carsdoc </h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#coches">Coches</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+                <div class="container">
+                  <img src="Carsdoc.png" alt="logo" width="1000" height="300">
+                  <div class="bottomright"></div>
+                </div>
+            </section>
+            <section id="coches">
+                <h2>Nuestros coches</h2>
+                <ul>
+                    <section class="contenedorfotos">
+                    <li>
+                        <div class="ap">
+                        <h3>Chevrolet Camaro ZL1 1LE</h3>
+                        <p>Precio: $62,000</p>
+                        <img height="220" width="400" src="camaro.jpg" alt="Chevrolet Camaro">
+                        <p>El Chevrolet Camaro ZL1 1LE es un automóvil deportivo
+                             de dos puertas y cuatro plazas fabricado por la marca
+                             estadounidense Chevrolet. Este coche tiene un 
+                             motor V8 de 6.2 litros que produce 455 caballos de fuerza.</p>
+                             <button class="boton-compra"><a href="compra_mustang.html">Comprar</a></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="aj">
+                          <h3>Ford Mustang GT</h3>
+                          <p>Precio: $57,260</p>
+                          <img height="165" width="400" src="mustang.jpg" alt="Ford Mustang">
+                          <p>El Mustang GT es un automóvil deportivo de dos
+                            puertas y cuatro plazas fabricado por la marca estadounidense
+                            Ford. Este coche tiene un motor V8 de 5.0 litros que produce
+                            300 caballos de fuerza.</p>
+                          <button class="boton-compra"><a href="https://www.ford.es/turismos/mustang/modelos-y-especificaciones/v8-gt">Comprar</a></button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="ar">
+                          <h3>Toyota Camry XLE</h3>
+                          <p>Precio: $33.245</p>
+                          <img height="220" width="400" src="camry.webp" alt="Toyota Camry">
+                          <p>El Camry XLE es un automóvil sedán de cuatro
+                            puertas fabricado por la marca japonesa Toyota. Este coche
+                            ofrece una versión con un V6 de 3.5 litros
+                            que produce 301 caballos de fuerza.</p>
+                          <button class="boton-compra"><a href="https://www.toyota.com/espanol/camryhybrid/">Comprar</a></button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="al">
+                          <h3>Honda Civic Type-R GT</h3>
+                          <p>Precio: $46.250</p>
+                          <img height="230" width="400" src="honda.jpg" alt="Civic Type-R">
+                          <p>El Civic Type-R es un automóvil de forma de berlina de cuatro
+                            puertas fabricado por la marca japonesa Honda. Este coche
+                            cuenta con un motor VTEC TURBO de dos litros y cuatro cilindros,
+                            que entrega una potencia máxima de 329 caballos de fuerza.</p>
+                          <button class="boton-compra"><a href="https://www.honda.es/cars/new/civic-type-r/overview.html">Comprar</a></button>
+                        </div> 
+                      </li>
+                      <li>
+                        <div class="al">
+                          <h3>Hyundai i30N</h3>
+                          <p>Precio: $32.450</p>
+                          <img height="180" width="400" src="hyundai.jpeg" alt="Hyundai i30N">
+                          <p>El i30N es un automóvil compacto deportivo fabricado por
+                            la marca surcoreana Hyundai. El i30N cuenta con un motor 
+                            de cuatro cilindros turboalimentado de 2.0 litros que produce
+                            hasta 275 caballos de fuerza. </p>
+                          <button class="boton-compra"><a href="https://www.hyundai.com/es/modelos/i30-n.html">Comprar</a></button>
+                        </div> 
+                      </li> 
+                      <li>
+                        <div class="al">
+                          <h3>Porsche GT3 RS</h3>
+                          <p>Precio: $285.840</p>
+                          <img height="180" width="400" src="porsche.webp" alt="Hyundai i30N">
+                          <p>El Porsche 911 GT3 RS es un automóvil deportivo de alto rendimiento
+                             que se enfoca en la conducción en pista y está diseñado para ofrecer
+                              la mejor experiencia de manejo posible. Cuenta con un motor bóxer 
+                              de seis cilindros y 4.0 litros que produce 520 caballos de fuerza </p>
+                          <button class="boton-compra"><a href="https://www.porsche.com/spain/models/911/911-gt3-rs/911-gt3-rs/">Comprar</a></button>
+                        </div> 
+                      </li> 
+                    </section>
+                </ul>
+                </section>
+                <section id="contacto">
+                    <h2>Contáctanos</h2>
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+                    
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Ingresa tu mensaje" required></textarea>
+                        <label for="pais">País:</label>
+                        <select id="pais" name="pais">
+                          <option value="mx">México</option>
+                          <option value="es">España</option>
+                          <option value="ar">Argentina</option>
+                          <option value="co">Colombia</option>
+                          <option value="usa">Estados Unidos</option>
+                          <option value="af">Afganistán</option>
+                          <option value="sr">Siria</option>
+                        </select>                    
+                        <button type="submit">Enviar</button>
+                    </form>
+                  </section>
+                  <footer>
+                    <ul class="redes-sociales">
+                      <li><a href="https://www.facebook.com/mi-pagina"><img src="facebook.png" alt="Facebook"></a></li>
+                      <li><a href="https://www.twitter.com/mi-pagina"><img src="twitter.png" alt="Twitter"></a></li>
+                      <li><a href="https://www.instagram.com/mi-pagina"><img src="instagram.png" alt="instagram"></a></li>
+                      <li><a href="https://www.linkedin.com/mi-pagina"><img src="linkedin.png" alt="LinkedIn"></a></li>
+                    </ul>
+                  </footer>
+        </main>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
