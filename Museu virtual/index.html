@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+           </a-entity>
+        <a-asset-item id="sala" src="sala/scene.gltf"></a-asset-item>
+        <a-asset-item id="sword" src="./arma/sandai_kitetsu.glb"></a-asset-item>
+      </a-assets>
+      
+      <a-entity gltf-model="#sala" position="0 6 -8" rotation="0 0 0" scale="5 5 5"></a-entity>
+      
+      <a-entity id="sword-animation"
+                gltf-model="#sword"
+                position="-0.0015 2.3 -4.938"
+                rotation="0 0 271"
+                scale="1 1 1"
+                animation__position="property: position; dir: alternate; dur: 2000; to: -0.0015 2.3 -4.938; loop: true"
+                animation__rotation="property: rotation; dir: alternate; dur: 1000; to: 0 360 271; loop: true">
+      </a-entity>
+      
+      <a-cylinder src="./assets/textures/piedra.jpg" radius="0.5" height="2" segments-radial="6" position="0 0 -5"></a-cylinder>
+    </a-scene>
+  </body>
+</html>
