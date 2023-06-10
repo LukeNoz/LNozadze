@@ -1,0 +1,132 @@
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .profile-pic {
+        float: none;
+        margin: 20px auto;
+    }
+
+    .text-container {
+        float: none;
+        text-align: left;
+    }
+}
+
+@media (min-width: 769px) {
+    .content {
+        width: 600px;
+        margin: 20px auto;
+    }
+
+    .profile-pic {
+        float: left;
+        margin: 20px 20px 20px 0;
+    }
+
+    .text-container {
+        float: right;
+        width: calc(100% - 200px);
+    }
+}
+
+body {
+    background-color: gainsboro;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+}
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    z-index: 999;
+    text-decoration: none;
+}
+.top-bar a.btn-inici {
+    background-color: crimson;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.top-bar a.btn-inici:hover {
+    background-color: #8b0000;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #333;
+    text-shadow: 2px 2px #ccc;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-download {
+    display: inline-block;
+    text-decoration: none;
+    background-color: crimson;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #8b0000;
+}
+
+.contact-container {
+    background-color: gainsboro;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact-container p {
+    margin: 1rem 0;
+}
+
+.contact-container a {
+    color: crimson;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+    color: #8b0000;
+}
+
+.profile-pic {
+    display: block;
+    max-width: 100%;
+    height: 230px;
+}
+
+.text-container {
+    overflow: hidden;
+}
