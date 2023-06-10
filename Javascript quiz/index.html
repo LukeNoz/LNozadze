@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Javascript Quiz</h1>
+      </div>
+      <div class="quiz-container">
+        <div class="start-section">
+          <p>Aquest és un qüestionari de Javascript.</p>
+          <p>Es mostraran 10 imatges amb 3 opcions com a resposta,
+            <br>
+            tens 10 segons per pregunta, si el comptador arriba a 0
+            <br> 
+            la pregunta no resposta comptarà com incorrecte.</p> 
+          <p>Feu clic al botó per començar el test.</p>
+          <button id="start-button">Començar</button>
+        </div>
+        <div class="question-section">
+          <div id="timer"></div>
+          <img src="" id="question-image" />
+          <h2 class="question"></h2>
+          <div class="options">
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+          </div>
+          <p class="result"></p>
+        </div>
+        <div class="score-section">
+          <p class="score">Preguntes respostes: <span id="answered-count"></span>/<span id="total-count"></span></p>
+          <p class="score">Respostes correctes: <span id="correct-count"></span></p>
+          <p class="score">Puntuació total: <span id="score"></span></p>
+          <button id="restart-button">Tornar a començar</button>
+        </div>
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>
